@@ -4,7 +4,6 @@ using namespace std;
 int main() {
   int bil1 = 1, bil2 = 2, bil3 = 3;
 
-
   int max = bil1;
   if (bil2 > max) {
     max = bil2;

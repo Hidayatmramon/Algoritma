@@ -4,19 +4,19 @@ using namespace std;
 
 int main() {
   
-  int bil;
+    string genap = "";
+    string ganjil = "";
 
-  cout << "Bilangan ganjil: ";
-  for (bil = 1; bil <= 50; bil += 2) {
-    cout << bil << " ";
+for (int bil = 1; bil <= 50; bil++) {
+  if (bil % 2 == 0) {
+    genap  += to_string(bil) + " ";
+  } else {
+    ganjil += to_string(bil) + " ";
   }
-  cout << endl;
+}
 
-  cout << "Bilangan genap: ";
-  for (bil = 2; bil <= 50; bil += 2) {
-    cout << bil << " ";
-  }
-  cout << endl;
+cout << "Bilangan ganjil: " << ganjil << endl;
+cout << "Bilangan genap: " <<  genap; 
 
-  return 0;
+
 }

@@ -9,7 +9,7 @@ int main() {
   cin >> td;
 
   int jam = td / 3600;
-  int menit = (td % 3600) / 60;
+  int menit = (td % 3600) / 60; 
   int detik = td % 60;
 
   cout << "Jam: " << jam << endl;
